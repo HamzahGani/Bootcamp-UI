@@ -1,0 +1,71 @@
+Build a NavBar
+	Logo left
+	Course name middle
+		on mobile course name will change to "Get Mentor Support"
+	User pic and name right
+		on click drop down with links
+			Edit profile
+			Log out
+Navbar style{
+	backgraound white
+	course name in orange on desktop
+	course name black on mobile
+	user name in black text
+	drop down black text on white background
+}
+
+Build the body with a main content area left and a sidebar right
+	on mobile the sidebar must postion below the main content area
+Body style {
+	light grey background
+	Black Headings
+	dark grey text
+	Button colours Orange on white or white on Orange
+}
+
+Main content to separate into 2 parts
+	current bootcamp content (separates into 2 parts)
+		continue current Bootcamp
+			course image left
+			course name and continue button on right
+		current bootcamp Progress
+			heading
+			4 buttons. 
+	trial another bootcamp
+		Heading
+		2 courses.
+Main content style {
+	shift content 1 column to the right on desktop
+	content takes 7 columns on desktop and 12 on mobile
+
+	Current bootcamp style{
+		Back ground white
+		shift content 1 column to the right
+		course name and continue button stacked vertically
+		bootcamp progress buttons. 2 per line on desktop and 1 per line on mobile
+	}
+	Trial another bootcamp style{
+		shift heading 1 column to the right
+		courses. 2 per line on desktop and 1 per line on mobile
+	}
+}
+
+Sidebar to separate into 3 parts
+	your coding journey
+		heading
+		key point and text
+		key point and text
+	get more information
+		heading
+		text
+		2 buttons 
+	upgrade to the full bootcamp
+		heading
+		text
+		button
+Sidebar style {
+	3 columns on dekstop and 12 columns on mobile
+	coding journey jey point in big orange
+	more info buttons both on a lien in desktop. 1 per line on mobile
+
+}
