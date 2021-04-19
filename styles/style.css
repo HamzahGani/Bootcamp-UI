@@ -145,7 +145,7 @@ p{
     /*Make all buttons bold*/
     font-weight: bold;
 }
-.btn-primary{
+.btn-primary,.btn-primary:active, .btn-primary:focus{
     /*Continue your trial*/
     border-radius: 8px;
     border-color: var(--orange);
@@ -160,7 +160,7 @@ p{
     color: var(--orange);
     font-size: 15px;
 }
-.btn-success{
+.btn-success, .btn-success:active, .btn-success:focus{
     /*"Your progress" completed buttons*/
     border-radius: 5px;
     border-color: var(--orange);
@@ -176,7 +176,7 @@ p{
     background-color: var(--white);
     color: var(--orange);
 }
-.btn-warning{
+.btn-warning,.btn-warning:active, .btn-warning:focus{
     /*"Your progress" incomplete buttons*/
     border-radius: 5px;
     border-color: var(--orange);
@@ -192,7 +192,7 @@ p{
     background-color: var(--orange);
     color: var(--white);
 }
-.btn-info{
+.btn-info, .btn-info:active, .btn-info:focus{
     /*Sidebar buttons*/
     border-radius: 8px;
     border-color: var(--orange);
