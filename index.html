@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Bootcamp Trial</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> <!-- Bootstrap 3.2 -->
+    <link href="./styles/style.css" rel="stylesheet"> <!-- My CSS -->
+</head>
+<body>
+    
+    <nav class="navbar navbar-default navbar-fixed-top"> <!-- Navigation Bar -->
+        
+        <div class="navbar-text navbar-left nav-logo"> <!-- Logo on left of Navbar -->
+            <a href="">
+                <img 
+                    src="./images/url.png" 
+                    alt="Logo of Hyperion Dev" 
+                    class="img-responsive navbar-brand"
+                />
+            </a>
+        </div>
+
+        <div class="dropdown navbar-right"> <!-- Profile on right of Navbar -->
+            
+            <!-- Profile pic and text -->
+            <button 
+                type="button" 
+                class="btn nav navbar-nav dropdown-toggle nav-button" 
+                data-toggle="dropdown"
+            > 
+                <a href="" class="nav-profile"> 
+                    <img 
+                        src="./images/student.png" 
+                        alt="user profile pic"
+                        class="img-circle profile-pic inline-block"
+                    />
+                    Profile
+                </a>
+            </button>
+            
+            <ul class="dropdown-menu nav nav-profile"> <!-- Profile dropdown -->
+                <li>Edit Profile</li>
+                <li>Log Out</li>
+            </ul>
+
+        </div>
+
+        <div class="navbar-text"> <!-- text middle of Navbar -->
+           
+            <!-- Show different text for different size screens -->
+            <p class="menu-heading-one visible-lg visible-xl">
+                &emsp;Full Stack Web Developer Bootcamp
+            </p>
+
+            <p class="menu-heading-two visible-md">
+                &emsp;Get Mentor Support
+            </p>
+
+            <p class="menu-heading-three visible-xs visible-sm">
+                &emsp;Get Mentor Support
+            </p>
+
+        </div>
+
+    </nav>
+    
+    <div class="container-fluid new-section"> <!-- container for content -->
+        <div class="row main-content"><!-- content -->
+            
+            <div class="col-md-offset-1 col-md-7 col-xs-12"><!-- content left -->
+                
+                <div class="row"> <!-- current bootcamp -->
+                    <div class="col-xs-12 current-bootcamp"> 
+                        
+                        <div class="row new-section"> <!-- continue bootcamp -->
+                            <div class="col-xs-offset-1 col-xs-3 col-md-2"> 
+                                <img 
+                                    src="./images/beginner-php-fundamentals.png" 
+                                    alt="Image of web development bootcamp" 
+                                    style="height:80px; width:121px;"
+                                    class="img-responsive"
+                                />
+                            </div>
+                            <div class="col-xs-7 col-md-8">
+                                <h2>Web Development Bootcamp Trial</h1>
+                                <button class="btn btn-primary">
+                                    Continue Your Trial 
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <hr>
+                        
+                        <div class="row new-section"> <!-- current progress -->
+                            <div class="col-xs-12 col-md-10 col-md-offset-1">
+                                <h3>Your progress <span class="subText">(1/4 complete)</span></h3>
+                            </div>
+                            <div class="col-xs-12 col-md-offset-1 col-md-5">
+                                <button class="btn btn-success">
+                                    Industry Knowledge 1
+                                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                </button>
+                            </div>
+                            <div class="col-xs-12 col-md-5">
+                                <button class="btn btn-warning">Industry Knowledge 2</button>
+                            </div>
+                            <div class="col-xs-12 col-md-offset-1 col-md-5">
+                                <button class="btn btn-warning">HTML Basics</button>
+                            </div>
+                            <div class="col-xs-12 col-md-5">
+                                <button class="btn btn-warning">Your first PHP Script</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row new-section"> <!-- Trial new bootcamp -->
+                    <div class="col-xs-12 col-md-offset-1 col-md-11">
+                        <h3>Trial another Bootcamp</h3>
+                    </div>
+                    <div class="col-xs-12 col-md-6 new-course">
+                        <a href="">
+                            <img 
+                                src="./images/mobile-developer-bootcamp-with-logo.png" 
+                                alt="Image of mobile engineer" 
+                                class="img-responsive inline-block"
+                            />
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-md-6 new-course">
+                        <a href="">
+                            <img 
+                                src="./images/software-engineer-bootcamp-with-logo.png" 
+                                alt="Image of mobile engineer" 
+                                class="img-responsive inline-block"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 col-xs-12"><!-- content right sidebar -->
+                <div class="row new-section"> <!-- Your coding journey -->
+                    <div class="col-xs-12">
+                        <h3>Your Coding Journey
+                            <span 
+                                class="glyphicon glyphicon-question-sign" 
+                                aria-hidden="true"
+                            >
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="col-xs-12">
+                        <p><strong class="stand-out">1</strong> Total Programs Written</p>
+                    </div>
+                    <div class="col-xs-12">
+                        <p><strong class="stand-out">4</strong> Total Code Reviews</p>
+                    </div>
+                </div>
+
+                <div class="row new-section"> <!-- Get more information -->
+                    <div class="col-xs-12">
+                        <h3>Get more information</h3>
+                    </div>
+                    <div class="col-xs-12">
+                        <p>We're ready to help with any questions you may have about our Bootcamps and Mentor support.</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <button class="btn btn-info">Book a call</button>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <button class="btn btn-info">Join an info session</button>
+                    </div>
+                </div>
+
+                <div class="row new-section"> <!-- Upgrade to the full bootcamp -->
+                    <div class="col-xs-12">
+                        <h3>Upgrade to the Full Bootcamp</h3>
+                    </div>
+                    <div class="col-xs-12">
+                        <p>Our next cohort starts 3 January 2018.</p>
+                    </div>
+                    <div class="col-xs-12">
+                        <button class="btn btn-info">Reserve your spot</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>    
+
+    <script 
+        src="https://code.jquery.com/jquery-2.2.4.min.js" 
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" 
+        crossorigin="anonymous">
+    </script> <!-- JQuery -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
+    <script src="./scripts/main.js"></script> <!-- My JS -->
+</body>
+</html>

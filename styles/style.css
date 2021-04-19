@@ -1,0 +1,213 @@
+
+/*START Variables*/
+:root {
+    /*Variable colours*/
+    --orange: #ee572a;
+    --green: #2dcc70;
+    --light-grey: #fafafa;
+    --dark-grey: #7c7c7c;
+    --white: #fff;
+    --black: #000;
+}
+/*END Variables*/
+
+/*START FONTS*/
+@font-face {
+    /*Normal font*/
+    font-family: 'avenir';
+    src: 
+        url('../fonts/Avenir-Medium.ttf')
+        format('truetype'); 
+}
+@font-face {
+    /*Bold font*/
+    font-family: 'avenir';
+    src: 
+        url('../fonts/Avenir-Heavy.ttf')
+        format('truetype');
+    font-weight: bold;
+}
+/*END FONTS*/
+
+/*START BODY*/
+body {
+    font-family: 'avenir', sans-serif;
+    background: var(--light-grey);
+}
+/*END BODY*/
+
+/*START HEADER*/
+.navbar{
+    /*Navigation bar*/
+    background: var(--white);
+}
+    /*START Header Left*/
+.nav-logo {
+    /*Header logo*/
+    margin: 0px;
+}
+    /*END Header Left*/
+
+    /*START Header Right*/
+.nav-profile {
+    /*Header profile*/
+    color:var(--black);
+    font-weight: bold; 
+    min-width: 90px;
+}
+.nav-profile:hover {
+    /*Header profile on hover*/
+    color:var(--orange);
+}
+.nav-button{
+    /*profile button background*/
+    background: var(--white);
+}
+.profile-pic{
+    /*Profile pic*/
+    width: 30px;
+}
+    /*END Header Right*/
+
+    /*START Header Center*/
+.nav-text{
+    /*Header text*/
+    margin: 0px; 
+    padding-top: 10px;
+}
+.menu-heading-one{
+    /*Text large screens*/
+    font-weight: bold;
+    font-size: 26px;
+    color:var(--orange);
+}
+.menu-heading-two{
+    /*Text MEdium screens*/
+    font-weight: bold;
+    font-size: 22px;
+    color:var(--black);
+}
+.menu-heading-three{
+    /*Text Small screens*/
+    font-weight: bold;
+    font-size: 20px;
+    color:var(--black);
+}
+    /*END Header Center*/
+
+/*END HEADER*/
+
+/*START CONTENT*/
+    /*START Sections*/
+.new-section{
+    /*Padding on each new section*/
+    padding-top: 60px;
+}   
+.current-bootcamp{
+    /*background colour white behind current course*/
+    background: var(--white);
+}
+.new-course{
+    /*Padding above new courses*/
+    padding-top:20px;
+}
+    /*END Sections*/
+
+    /*START Text*/
+h2 {
+    /*Current course heading*/
+    font-size: 24px;
+    font-weight: bold;
+    margin-top:0px
+}
+h3 {
+    /*Other sections headings*/
+    font-size: 20px;
+    font-weight: bold;
+}
+.subText{
+    /*Text in brackets next to "your progress"*/
+    font-weight: normal;
+}
+p{
+    /*General text*/
+    color: var(--dark-grey);
+}
+.stand-out{
+    /*Numbers in "your coding journey"*/
+    color: var(--orange);
+    font-size: 30px;
+}
+    /*END Text*/
+
+    /*START Buttons*/
+.btn{
+    /*Make all buttons bold*/
+    font-weight: bold;
+}
+.btn-primary{
+    /*Continue your trial*/
+    border-radius: 8px;
+    border-color: var(--orange);
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 15px;
+}
+.btn-primary:hover{
+    /*Continue your trial on hover*/
+    border-color: var(--orange);
+    background-color: var(--white);
+    color: var(--orange);
+    font-size: 15px;
+}
+.btn-success{
+    /*"Your progress" completed buttons*/
+    border-radius: 5px;
+    border-color: var(--orange);
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 15px;
+    width: 100%;
+    margin-top:10px;
+}
+.btn-success:hover{
+    /*"Your progress" completed buttons on hover*/
+    border-color: var(--orange);
+    background-color: var(--white);
+    color: var(--orange);
+}
+.btn-warning{
+    /*"Your progress" incomplete buttons*/
+    border-radius: 5px;
+    border-color: var(--orange);
+    background-color: var(--white);
+    color: var(--orange);
+    font-size: 15px;
+    width: 100%;
+    margin-top:10px;
+}
+.btn-warning:hover{
+    /*"Your progress" incomplete buttons on hover*/
+    border-color: var(--orange);
+    background-color: var(--orange);
+    color: var(--white);
+}
+.btn-info{
+    /*Sidebar buttons*/
+    border-radius: 8px;
+    border-color: var(--orange);
+    background-color: var(--white);
+    color: var(--orange);
+}
+.btn-info:hover{
+    /*Sidebar buttons on hover*/
+    background-color: var(--orange);
+    color: var(--white);
+    border-color: var(--orange);
+}
+    /*END Buttons*/
+/*END CONTENT*/
+
+
+
+
